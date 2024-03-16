@@ -1,0 +1,727 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header .head-container{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    gap: 35px;
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.main-container {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+
+.tentara{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container1 .tentara img{
+    height: 180px;
+    width: 180px;
+    margin-top: -15px;
+}
+
+.tampilan-tentara{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.tampilan-tentara h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tampilan-tentara p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.tampilan-tentara a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px;
+    background-color: #399349;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: -20px;
+}
+
+.color-tentara{
+    height: 120px;
+    width: 400px;
+    background-color: #D5FFDD;
+    position: absolute;
+    z-index: -1;
+    top: 165px;
+    border-radius: 15px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.mandor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.mandor img{
+    height: 120px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left : -70px;
+}
+
+.mandor a{
+    text-decoration: none;
+    color: white;
+    background-color: #E29A00;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 15px;
+    margin-left : -70px;
+    margin-top: -35px;
+}
+
+.color-mandor{
+    height: 130px;
+    width: 170px;
+    background-color: #FFF4DC;
+    position: absolute;
+    top: 310px;
+    z-index: -1;
+    border-radius: 15px;
+    margin-left : -70px;
+}
+
+.pramugari{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -70px;
+}
+
+.pramugari img{
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.pramugari a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5573;
+    width: 110px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 4px;
+    border-radius: 15px;
+    margin-top: -35px;  
+}
+
+.color-pramugari{
+    background-color: #FFCED7;
+    width: 170px;
+    height: 130px;
+    position: absolute;
+    top: 460px;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.fotografer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 110%;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+
+.fotografer img{
+    height: 120px;
+    margin-left: 35px;
+}
+
+.fotografer h5{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.fotografer p{
+    width: 70%;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.fotografer a{
+    text-decoration: none;
+    color: white;
+    background-color: #3279AF;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    width: 130px;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.color-fotografer{
+    background-color: #E2F2FF;
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    top: 310px;
+    z-index: -1;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.container2{
+    display: flex;
+    margin-top: 45px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: -60px;
+}
+
+.box3{
+    display: flex;
+    width: 400px;
+    height: 280px;
+    background-color: #F4F4F4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.box4{
+    display: flex;
+    width: 400px;
+    height: 120px;
+    background-color: #F4F4F4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.dokter{
+    display: flex;
+    width: 350px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #D8D6C1;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.pilot{
+    display: flex;
+    width: 350px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #D8D6C1;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.ilmuan{
+    display: flex;
+    width: 350px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #D8D6C1;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.pembalap{
+    display: flex;
+    width: 180px;
+    height: 80px;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.astronout{
+    display: flex;
+    width: 180px;
+    height: 80px;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.dokter, .pilot, .ilmuan, img{
+    height: 50px;
+}
+
+.desc-dokter {
+    padding-left: 15px;
+}
+
+.desc-dokter a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    background-color: #D8D6C1;
+    padding: 2px 40px 2px 40px;
+    border-radius: 15px;
+}
+
+.desc-pilot {
+    padding-left: 15px;
+}
+
+.desc-pilot a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background-color: #D8D6C1;
+    padding: 2px 40px 2px 40px;
+    border-radius: 15px;
+}
+
+.desc-ilmuan {
+    padding-left: 15px;
+}
+
+.desc-ilmuan a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background-color: #D8D6C1;
+    padding: 2px 40px 2px 40px;
+    border-radius: 15px;
+}
+
+.pembalap img{
+    height: 80px;
+}
+
+.desc-pembalap{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-pembalap a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    background-color: #D8D6C1;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    border-radius: 15px;
+}
+
+.astronout img{
+    height: 80px;
+}
+
+.desc-astronout{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-astronout a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    background-color: #D8D6C1;
+    padding: 8px 5px 8px 5px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 1280px) {
+
+    .head-container{
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .main-container{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .container1{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .container2{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .tentara{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    .tampilan-tentara{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .color-tentara{
+        position: none;
+        width: 70%;
+        height: 210px;
+    }
+
+    .tampilan-tentara p{
+        margin-bottom: 0px;
+    }
+
+    .tampilan-tentara a{
+        margin-bottom: 0px;
+        position: relative;
+        top : -80px;
+    }
+    
+    .main-container .container1 .box1{
+        flex-direction: column;
+    }
+    
+    .box2{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    
+    .mandor{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .mandor img{
+        height: 180px;
+        width: 180px;
+        margin-top: 0px;
+        margin-left : 0px;
+    }
+    
+    .mandor a{
+        padding: 10px;
+        width: 200px;
+        margin-left : 0px;
+        margin-top: -10px;
+    }
+    
+    .color-mandor{
+        background-color: #FFF4DC;
+        margin-left : 0px;
+        height: 230px;
+        width: 70%;
+        top: 400px;
+    }
+    
+    .pramugari{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    
+    .pramugari img{
+        height: 180px;
+        width: 180px;
+        margin-top: 0px;
+    }
+    
+    .pramugari a{
+        padding: 10px;
+        width: 200px;
+        margin-top: -10px;  
+    }
+    
+    .color-pramugari{
+        height: 230px;
+        width: 70%;
+        top: 655px;
+    }
+
+    .fotografer{
+        width: 100%;
+        margin-left: 0px;
+        height: 100%;
+        margin-top: 30px;
+    }
+    
+    .fotografer img{
+        height: 180px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .fotografer h5{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    
+    .fotografer p{
+        width: 50%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .fotografer a{
+        width: 200px;
+        margin-left: 0px;
+        position: relative;
+        top: -100px;
+    }
+    
+    .color-fotografer{
+        height: 230px;
+        width: 70%;
+        top: 960px;
+        margin-left: 0px;
+    }
+
+    .container2{
+        margin-top: 10px;
+        gap: 30px;
+        margin-left: 0px;
+    }
+    
+    .box3{
+        height: auto;
+        background-color: transparent;
+        width: 70%;
+        gap: 20px;
+    }
+    
+    .box4{
+        height: auto;
+        background-color: transparent;
+        width: 70%;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        padding-bottom: 70px;
+    }
+    
+    .box3 .dokter{
+        height: 230px;
+        width: 100%;
+        background-color: #E9E8E2;
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .box3 .pilot{
+        height: 230px;
+        width: 100%;
+        background-color: #E9E8E2;
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .box3 .ilmuan{
+        height: 230px;
+        width: 100%;
+        background-color: #E9E8E2;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .box4 .pembalap{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        background-color: #FFDBC5;
+    }
+    
+    .box4 .astronout{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        background-color: #8FC5ED;
+    }
+    
+    .dokter, .pilot, .ilmuan, img{
+        height: 180px;
+        margin-bottom: 0px;
+    }
+
+    .dokter h5{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .pilot h5{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .ilmuan h5{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .desc-dokter {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .desc-pilot {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .desc-ilmuan {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .desc-dokter a{
+        font-size: 17px;
+        padding: 5px 50px 5px 50px;
+    }
+    
+    .desc-pilot a{
+        font-size: 17px;
+        padding: 5px 50px 5px 50px;
+    }
+    
+    .desc-ilmuan a{
+        font-size: 17px;
+        padding: 5px 50px 5px 50px;
+    }
+    
+    .pembalap img{
+        height: 180px;
+        margin-top: 20px;
+    }
+    
+    .astronout img{
+        height: 180px;
+        margin-top: 30px;
+    }
+    
+    .desc-pembalap{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .desc-astronout{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .desc-pembalap a{
+        font-size: 17px;
+        background-color: #E36415;
+        padding: 5px 50px 5px 50px;
+        border-radius: 15px;
+        margin-top: -15px;
+    }
+    
+    .desc-astronout a{
+        font-size: 17px;
+        background-color: #275E87;
+        padding: 5px 50px 5px 50px;
+        border-radius: 15px;
+        margin-top: -25px;
+    }
+
+    .desc-pembalap h5{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .desc-astronout h5{
+        visibility: hidden;
+        position: absolute;
+    }
+}
